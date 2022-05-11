@@ -2,6 +2,9 @@ package ch.bzz.bookshelf.model;
 
 import java.util.List;
 
+/**
+ * the publisher of one or more books
+ */
 public class Publisher {
     private String publisherUUID;
     private String publisher;

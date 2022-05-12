@@ -1,5 +1,7 @@
 package ch.bzz.bookshelf.model;
 
+import java.math.BigDecimal;
+
 /**
  * a book in our bookshelf
  */
@@ -8,7 +10,7 @@ public class Book {
     private String title;
     private String author;
     private Publisher publisher;
-    private double price;
+    private BigDecimal price;
     private String isbn;
 
     public String getBookUUID() {
@@ -43,11 +45,11 @@ public class Book {
         this.publisher = publisher;
     }
 
-    public double getPrice() {
+    public BigDecimal getPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(BigDecimal price) {
         this.price = price;
     }
 
